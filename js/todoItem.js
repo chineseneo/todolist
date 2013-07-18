@@ -3,5 +3,5 @@ function TodoItem(description) {
 }
 
 TodoItem.prototype.render = function() {
-	return '<li>' + this.description + ' <a href="#">remove</a></li>';
+	return '<li>' + this.description + ' <a href="#" class="removeTodoItem">remove</a></li>';
 }
